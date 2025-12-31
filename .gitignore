@@ -59,3 +59,6 @@ data/temp/
 # Credentials
 credentials.json
 token.json
+
+# Uploaded user files
+backend/app/uploads/
