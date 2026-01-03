@@ -35,4 +35,5 @@ def get_db():
 
 from backend.app.models import models  # noqa: F401
 
-Base.metadata.create_all(bind=engine)
+def init_db():
+    Base.metadata.create_all(bind=engine)
